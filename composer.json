@@ -1,0 +1,25 @@
+{
+  "name": "anwsonwsymous/php-sql-query-builder",
+  "description": "A PHP project for building SQL queries from templates and parameters.",
+  "type": "project",
+  "require": {
+    "php": "^8.1",
+    "ext-mysqli": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "FpDbTest\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit --configuration phpunit.xml"
+  }
+}
